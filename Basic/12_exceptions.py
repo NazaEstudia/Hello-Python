@@ -44,7 +44,7 @@ except TypeError:
 try:
     print(numberOne + numberTwo)
     print("No se ha producido un error")
-except ValueError as error:
+except TypeError as error:
     print(error)
 except Exception as my_random_error_name:
     print(my_random_error_name)
